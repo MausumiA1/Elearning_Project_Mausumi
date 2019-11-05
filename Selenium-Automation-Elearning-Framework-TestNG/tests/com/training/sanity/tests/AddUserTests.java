@@ -77,7 +77,6 @@ public class AddUserTests {
 		postLoginPOM.clickAdminBtn();
 		admin.clickAddUserToCourse();
 		addUser.selUserToAdd("angel mark (mark17)");
-		//addUser.selCourseToAdd("(CD41) TestNG"); //this did not work
 		addUser.selCourseToAdd("(KNL) sel2");
 		addUser.clickAddUserToCourseBtn();
 		
