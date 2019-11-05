@@ -80,7 +80,6 @@ public class DeleteCourseCategoryTests {
 		loginPOM.clickLoginBtn();
 		postLoginPOM.clickAdminBtn();
 		admin.clickCourseCategories();
-		//courseCategories.clickaddCategoryIcon();//Incorrect for this testcase
 		courseCategories.deleteCategory(); //It is deleted item index 1
 		screenShot.captureScreenShot();
 		
